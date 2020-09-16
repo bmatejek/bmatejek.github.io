@@ -1,15 +1,15 @@
 .top-contact-wrapper {
-	width: 58rem;
+	width: 59rem;
 	height: 12.5rem;
 	margin: auto;
-	margin-top: 4rem;
+	margin-top: 2.5rem;
 }
 
 .bottom-contact-wrapper {
-	width: 38rem;
+	width: 38.5rem;
 	height: 12.5rem;
 	margin: auto;
-	margin-top: 2rem;
+	margin-top: 2.5rem;
 }
 
 .contact-option {
@@ -32,7 +32,7 @@
 }
 
 .contact-option-right {
-	margin-left: 2rem;
+	margin-left: 2.5rem;
 }
 
 .contact-image {
