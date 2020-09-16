@@ -10,7 +10,8 @@ from numba import jit
 
 
 
-color = (10, 26, 36)
+banner_color = (10, 26, 36)
+background_color = (222, 237, 254)
 
 
 
@@ -25,9 +26,9 @@ def MakeTransparent(banner):
         for iy in range(yres):
             luminance = 0.2126 * banner[iy,ix,0] + 0.7152 * banner[iy,ix,1] + 0.0722 * banner[iy,ix,2]
             if luminance < 254:
-                output_banner[iy,ix,:] = (color[0], color[1], color[2], 255)
+                output_banner[iy,ix,:] = (banner_color[0], banner_color[1], banner_color[2], 255)
             else:
-                output_banner[iy,ix,:] = (0, 0, 0, 0)
+                output_banner[iy,ix,:] = (background_color[0], background_color[1], background_color[2], 255)
 
     return output_banner
 

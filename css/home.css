@@ -1,0 +1,26 @@
+.home-div {
+    width: 100%;
+}
+
+.home-biography {
+    float: right;
+    width: 36rem;
+    margin-top: 1rem;
+    background-color: #0a1a24;
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: #deedfe;
+    border-radius: 2rem;
+}
+
+.home-image {
+    float: left;
+    width: 20rem;
+    margin-top: 1rem;
+    box-shadow: -0.25rem 0.25rem 0.25rem #0a1a24;
+}
+
+.home-bio a {
+    text-decoration: underline;
+    color: inherit;
+}

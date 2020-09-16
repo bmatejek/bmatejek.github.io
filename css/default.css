@@ -38,11 +38,10 @@ ul {
     margin-left: 0.5rem;
     width: 10rem;
     font-size: 2rem;
-    height: 2rem;
+    height: 2.75rem;
     float: left;
     text-align: center;
     text-decoration: none;
-    padding-bottom: 0.75rem;
     border-radius: 0.5rem;
     cursor: pointer;
 
@@ -50,16 +49,23 @@ ul {
     background-color: #deedfe;
 }
 
+.top-menu-option a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .top-menu-option-selected {
     font-weight: bold;
     margin-left: 0.5rem;
     width: 10rem;
     font-size: 2rem;
-    height: 2rem;
+    height: 2.75rem;
     float: left;
     text-align: center;
     text-decoration: none;
-    padding-bottom: 0.75rem;
     border-radius: 0.5rem;
     cursor: default;
 
@@ -71,17 +77,21 @@ ul {
     margin-left: 0.5rem;
     width: 9.875rem;
     font-size: 2rem;
-    height: 1.875rem;
+    height: 2.625rem;
     float: left;
     text-align: center;
     text-decoration: none;
-    padding-bottom: 0.75rem;
     border-radius: 0.5rem;
     cursor: pointer;
 
     color: #deedfe;
     background-color: #0a1a24;
     border: 0.0625rem solid #deedfe;
+}
+
+.menu-link-span {
+    display: block;
+    height: 2.625rem;
 }
 
 .mountain-range {
@@ -96,12 +106,28 @@ ul {
 
 .connectome-background {
     position: fixed;
-    top: 8.75rem;
+    top: 0rem;
     width: 63.5rem;
     right: 0rem;
     left: 0rem;
     margin: auto;
     z-index: -1;
+}
+
+.content-div {
+    right: 0rem;
+    left: 0rem;
+    margin: auto;
+    z-index: 0;
+
+    position: absolute;
+    width: 63.5rem;
+    top: 8.75rem;
+}
+
+.footer-div {
+    height: 5rem;
+    width: 100%;
 }
 
 /* barlow-condensed-regular - latin */
