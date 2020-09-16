@@ -1,0 +1,43 @@
+.top-contact-wrapper {
+	width: 58rem;
+	height: 12.5rem;
+	margin: auto;
+	margin-top: 4rem;
+}
+
+.bottom-contact-wrapper {
+	width: 38rem;
+	height: 12.5rem;
+	margin: auto;
+	margin-top: 2rem;
+}
+
+.contact-option {
+	float: left;
+	height: 100%;
+	width: 18rem;
+	background-color: #0a1a24dd;
+    color: #deedfe;
+    border-radius: 2rem;
+}
+
+.contact-option:hover {
+	float: left;
+	height: 100%;
+	width: 18rem;
+	background-color: #0a1a24;
+    color: #deedfe;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.contact-option-right {
+	margin-left: 2rem;
+}
+
+.contact-image {
+	height: 6rem;
+	width: 6rem;
+	margin-left: 6rem;
+	margin-top: 3.25rem;
+}
