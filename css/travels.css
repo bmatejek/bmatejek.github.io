@@ -1,0 +1,11 @@
+.coming-soon-div {
+    background-color: #0a1a24;
+    color: #deedfe;
+
+    width: 61.5rem;
+    height: 100%;
+    margin-top: 0.75rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-size: 2rem;
+}
