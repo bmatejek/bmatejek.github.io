@@ -38,7 +38,7 @@
     opacity: 0.5;
 }
 
-.baseball-discussion {
+#baseball-discussion {
     width: 35.75rem;
     background-color: #0a1a24dd;
     color: #deedfe;
@@ -60,8 +60,8 @@
     vertical-align: middle;
 }
 
-.baseball-photo {
-    width: 24.875rem;
-    margin-left: 0.875rem;
+#baseball-photo {
+    /*width: 24.875rem;
+    margin-left: 0.875rem;*/
     border-radius: 0.75rem;
 }

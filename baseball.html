@@ -4,6 +4,8 @@
   <title>Baseball Tours</title>
   <link rel="stylesheet" href="/css/default.css"/>
   <link rel="stylesheet" href="/css/baseball.css"/>
+  <script src="/scripts/jquery-3.5.1.min.js"></script>
+  <script src="/scripts/baseball.js"></script>
 </head>
 <body>
   <img class="mountain-range" src="/images/banner-transparent.png" />
@@ -25,12 +27,12 @@
 
     <div class="baseball-ballpark-header">
         <div class="baseball-discussion-frame">
-          <div class="baseball-discussion">
-            One of my travel goals is to attend at least one game at every current Major League Baseball stadium. Over the last decade, I have planned several vacations to cities nationwide to expand my list of visited stadiums. My brother Rob, our buddy Joe, and my Dad are frequent travel partners on these expeditions. I have attended games at 25 different stadiums, missing only Arizona, Houston, Texas, Chicago (White Sox), and Kansas City. I hope to visit these remaining six in the coming few years. My favorite stadiums (outside of the hometown favorite, Citi Field) are PNC Park (PIT), AT&T Park (SF), and Coors Field (DEN). Each one of these stadiums combines modern amenities with spectacular views of the city and the surrounding environment. Denver gets a special shoutout for "The Rooftop" bar that provides excellent views of the game and the Rocky Mountains in the distance.
+          <div id="baseball-discussion">
+            One of my travel goals is to attend at least one game at every current Major League Baseball stadium. Over the last decade, I have planned several vacations to cities nationwide to expand my list of visited stadiums. My brother Rob, our buddy Joe, and my Dad are frequent travel partners on these expeditions. I have attended games at 25 different stadiums, missing only Arizona, Houston, Texas, Chicago (White Sox), and Kansas City. I hope to visit these remaining five in the coming few years. My favorite stadiums (outside of the hometown favorite, Citi Field) are PNC Park (PIT), AT&T Park (SF), and Coors Field (DEN). Each one of these stadiums combines modern amenities with spectacular views of the city and the surrounding environment. Denver gets a special shoutout for "The Rooftop" bar that provides excellent views of the game and the Rocky Mountains in the distance.
           </div>
         </div>
         <div class="baseball-photo-frame">
-          <img class="baseball-photo" src="/images/baseball/miami-visit.jpg"/>
+          <img id="baseball-photo" onclick="photo_div_click();"/>
         </div>
     </div>
 
@@ -82,7 +84,7 @@
       <div class="baseball-ballpark-element" style="margin-right: 0.875rem"><img src="/images/baseball/stadiums/RogersCentre.jpg" class="baseball-ballpark-visited"/><img src="/images/baseball/logos/TOR.png" class="baseball-logo"/></div>
       <div class="baseball-ballpark-element"><img src="/images/baseball/stadiums/NationalsPark.jpg" class="baseball-ballpark-visited"/><img src="/images/baseball/logos/WAS.png" class="baseball-logo"/></div>
     </div>
-  
+
     <div class="footer-div">&nbsp;</div>
 
   </div>
