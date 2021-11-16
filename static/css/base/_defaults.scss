@@ -1,0 +1,68 @@
+/*
+ * Remove any original margin or padding on HTML elements 
+ */ 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+ * Set the default colors and fonts for all webpages 
+ */ 
+body {
+    color: $color-dark;
+    background: $color-beige;
+    font-family: 'Barlow Condensed';
+}
+
+/* 
+ * Remove bullets from all lists 
+ */ 
+ul {
+    list-style-type: none;
+}
+
+/* 
+ * Font from Google fonts
+ */ 
+@font-face {
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Barlow Condensed Regular'), local('BarlowCondensed-Regular'),
+         url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/Barlow_Condensed/barlow-condensed-v5-latin-regular.svg#BarlowCondensed') format('svg'); /* Legacy iOS */
+}
+
+/*
+ * Add a buffer for the page content
+ */
+#content {
+    right: 0rem;
+    left: 0rem;
+    margin: auto;
+    z-index: 0;
+    min-height: calc(100vh - 8.75rem);
+    position: absolute;
+    width: 63.5rem;
+    top: 8.75rem;
+
+    // background fits width and scales the height with correct aspect ratio
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+/*
+ * Add a small footer for some of the longer pages
+ */
+.footer-div {
+    position: relative;
+    width: 100%;
+    height: 2rem;
+    display: block;
+    float: left;
+}

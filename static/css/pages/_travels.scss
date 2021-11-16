@@ -1,0 +1,131 @@
+%postcard {
+    position: absolute;
+    width: 30rem;
+    height: 22.5rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    &:hover {
+        background-color: $color-dark;
+        cursor: pointer;
+        @extend %dark-shadow;
+    }
+}
+
+.post-card-001 {
+    @extend %postcard;
+
+    top: 8rem;
+    left: -7rem;
+    transform: rotate(24deg);
+    z-index: 1;
+}
+
+.post-card-002 {
+    @extend %postcard;
+
+    top: 8rem;
+    left: 28rem;
+    transform: rotate(-6deg);
+    z-index: 2;
+}
+
+
+.post-card-003 {
+    @extend %postcard;
+
+    top: 16rem;
+    left: 18rem;
+    transform: rotate(2deg);
+    z-index: 6;
+}
+
+.post-card-004 {
+    @extend %postcard;
+
+    top: 2.5rem;
+    left: 12rem;
+    transform: rotate(-9deg);
+    z-index: 4;
+}
+
+.post-card-005 {
+    @extend %postcard;
+
+    top: 14rem;
+    left: 36rem;
+    transform: rotate(12deg);
+    z-index: 7;
+}
+
+.post-card-006 {
+    @extend %postcard;
+
+    top: 22rem;
+    left: -3rem;
+    transform: rotate(-17deg);
+    z-index: 6;
+}
+
+.post-card-007 {
+    @extend %postcard;
+
+    top: 26rem;
+    left: 8rem;
+    transform: rotate(2deg);
+    z-index: 7;
+}
+
+.post-card-008 {
+    @extend %postcard;
+
+    top: 26rem;
+    left: 34rem;
+    transform: rotate(-5deg);
+    z-index: 4;
+}
+
+.post-card-009 {
+    @extend %postcard;
+
+    top: 1rem;
+    left: -4rem;
+    transform: rotate(-1deg);
+    z-index: 0;
+}
+
+.post-card-010 {
+    @extend %postcard;
+
+    top: 1.25rem;
+    left: 38rem;
+    transform: rotate(4deg);
+    z-index: -1;
+}
+
+#post-card-spotlight {
+    @extend %postcard;
+
+    width: 48rem;
+    height: 36rem;
+
+    // add large shadow and increase on hover 
+    box-shadow: 0 0 4rem $color-darkest;
+    -moz-box-shadow: 0 0 4rem $color-darkest;
+    -webkit-box-shadow: 0 0 4rem $color-darkest;
+    
+    &:hover {
+        box-shadow: 0 0 6rem $color-darkest;
+        -moz-box-shadow: 0 0 6rem $color-darkest;
+        -webkit-box-shadow: 0 0 6rem $color-darkest;
+    }
+
+    top: 2rem;
+    left: 50%;
+
+    //margin-top: -11.25rem;
+    margin-left: -24rem;
+
+    display: none;
+    z-index: 12;
+}

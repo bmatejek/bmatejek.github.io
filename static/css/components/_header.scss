@@ -1,0 +1,59 @@
+.header-image {
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    margin: auto;
+    width: 61.5rem;
+    height: 4.5rem;
+}
+
+.header-menu {
+    @extend %dark-shadow;
+
+    background-color: $color-dark;
+    position: absolute;
+    left: 0rem;
+    right: 0rem;
+    margin: auto;
+    width: 63.5rem;
+    margin-top: 4.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 1rem;   
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.header-menu-option {
+    font-weight: bold;
+    margin-left: 0.5rem;
+    width: 10rem;
+    font-size: 2rem;
+    height: 2.75rem;
+    float: left;
+    text-align: center;
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+    color: $color-light;
+    background-color: $color-dark;
+    cursor: pointer;
+
+    &:hover {
+        @extend %light-shadow;
+
+        color: $color-dark;
+        background-color: $color-light;
+    }
+
+    a {
+        color: inherit;
+        display: block;
+        text-decoration: none;
+    }
+}
