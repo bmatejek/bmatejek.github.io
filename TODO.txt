@@ -1,4 +1,2 @@
-Menu clicks should not reload the whole page but just change the content of the content div using Jquery
-Reduce the transparency of the brain/fix that image
 Add in favicon
-Improve the image directory structure and the python scripts folder
+Reload should return to same page?
