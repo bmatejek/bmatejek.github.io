@@ -1,2 +1,1 @@
-Add in favicon
 Reload should return to same page?
