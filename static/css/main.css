@@ -251,7 +251,7 @@ ul {
   transform: rotateY(0deg) translateZ(10rem); }
 
 #home-cube .back {
-  transform: rotateX(180deg) translateZ(10rem); }
+  transform: rotateX(180deg) scaleX(-1) translateZ(10rem); }
 
 #home-cube .right {
   transform: rotateY(90deg) translateZ(10rem); }
