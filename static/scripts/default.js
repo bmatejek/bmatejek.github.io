@@ -353,6 +353,7 @@ function GeneratePostCards() {
         'Berlin',
         'Boston',
         'Israel',
+        'LakeChamplain',
         'Las Vegas',
         'Los Angeles',
         'Miami',
@@ -364,6 +365,7 @@ function GeneratePostCards() {
         'Shenzhen',
         'Tokyo',
         'Vancouver',
+        'Washington',
     ]
 
     // randomize the cities 
