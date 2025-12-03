@@ -1,0 +1,20 @@
+---
+layout: default
+title: Travel
+permalink: /travels/
+stylesheet: /assets/css/travels.css
+script: /assets/javascript/travels.js
+---
+
+<div class="post-card-001"></div>
+<div class="post-card-002"></div>
+<div class="post-card-003"></div>
+<div class="post-card-004"></div>
+<div class="post-card-005"></div>
+<div class="post-card-006"></div>
+<div class="post-card-007"></div>
+<div class="post-card-008"></div>
+<div class="post-card-009"></div>
+<div class="post-card-010"></div>
+
+<div id="post-card-spotlight"></div>

@@ -1,6 +1,7 @@
+_site/
 .sass-cache/
-# byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-**/.DS_Store
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.DS_Store
+Gemfile.lock

@@ -1,0 +1,119 @@
+- team: ARI
+  stadium: ChaseField
+  visited: false
+
+- team: ATL
+  stadium: TurnerField
+  visited: true
+
+- team: BAL
+  stadium: CamdenYards
+  visited: true
+
+- team: BOS
+  stadium: FenwayPark
+  visited: true
+
+- team: CHI
+  stadium: WrigleyField
+  visited: true
+
+- team: CWS
+  stadium: GuaranteedRateField
+  visited: false
+
+- team: CIN
+  stadium: GreatAmericanBallPark
+  visited: true
+
+- team: CLE
+  stadium: ProgressiveField
+  visited: true
+
+- team: COL
+  stadium: CoorsField
+  visited: true
+
+- team: DET
+  stadium: ComericaPark
+  visited: true
+
+- team: HOU
+  stadium: MinuteMaidPark
+  visited: true
+
+- team: KC
+  stadium: KauffmanStadium
+  visited: false
+
+- team: LAA
+  stadium: AngelStadium
+  visited: true
+
+- team: LAD
+  stadium: DodgerStadium
+  visited: true
+
+- team: MIA
+  stadium: MarlinsPark
+  visited: true
+
+- team: MIL
+  stadium: MillerPark
+  visited: true
+
+- team: MIN
+  stadium: TargetField
+  visited: true
+
+- team: NYM
+  stadium: CitiField
+  visited: true
+
+- team: NYY
+  stadium: YankeeStadium
+  visited: true
+
+- team: OAK
+  stadium: OaklandColiseum
+  visited: true
+
+- team: PHI
+  stadium: CitizensBankPark
+  visited: true
+
+- team: PIT
+  stadium: PNCBankPark
+  visited: true
+
+- team: SD
+  stadium: PetcoPark
+  visited: true
+
+- team: SF
+  stadium: ATTPark
+  visited: true
+
+- team: SEA
+  stadium: SafecoField
+  visited: true
+
+- team: STL
+  stadium: BuschStadium
+  visited: true
+
+- team: TB
+  stadium: TropicanaField
+  visited: true
+
+- team: TEX
+  stadium: GlobeLifePark
+  visited: false
+
+- team: TOR
+  stadium: RogersCentre
+  visited: true
+
+- team: WAS
+  stadium: NationalsPark
+  visited: true

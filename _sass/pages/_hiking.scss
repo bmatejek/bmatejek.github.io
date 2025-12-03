@@ -1,0 +1,188 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.hiking-post {
+    width: 15rem;
+    height: 50rem;
+    background-image: url('/assets/images/hiking/post/hiking-post-with-grass.png');
+    background-size: 100% 100%;  
+    /* position in top left of content-div */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+#hiking-collage {
+    position: absolute;
+    top: 0.5rem;
+    left: 15.5rem;
+    height: 48rem;
+    width: 48rem;
+}
+
+.hiking-picture {
+    @extend %dark-shadow;
+
+    position: relative;
+    height: 95%;
+    width: 95%;
+    left: 2.5%;
+    top: 2.5%;
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+%hiking-picture-wrapper {
+    float: left;
+}
+
+#hiking-forty-eight-by-twelve {
+    @extend %hiking-picture-wrapper;
+
+    width: 48rem;
+    height: 12rem;
+}
+
+#hiking-sixteen-by-twelve {
+    @extend %hiking-picture-wrapper;
+    
+    width: 16rem;
+    height: 12rem;
+}
+
+#hiking-twenty-four-by-twelve {
+    @extend %hiking-picture-wrapper;
+
+    width: 24rem;
+    height: 12rem;
+}
+
+#hiking-eight-by-twelve {
+    @extend %hiking-picture-wrapper;
+
+    width: 8rem;
+    height: 12rem;
+}
+
+#hiking-thirty-two-by-twenty-four {
+    @extend %hiking-picture-wrapper;
+
+    width: 32rem;
+    height: 24rem;
+}
+
+#hiking-sixteen-by-twenty-four {
+    @extend %hiking-picture-wrapper;
+    
+    width: 16rem;
+    height: 24rem;
+}
+
+.hiking-sign-position {
+    /* create a relative position element so that rotation is relative to this element */
+    position: relative;
+}
+
+%hiking-sign-rotation {
+    width: 12rem;
+    height: 4rem;
+
+    -webkit-transform-origin: 5.42rem 0.55rem;
+    -moz-transform-origin: 5.42rem 0.55rem;
+    -ms-transform-origin: 5.42rem 0.55rem;
+    -o-transform-origin: 5.42rem 0.55rem;
+    transform-origin: 5.42rem 0.55rem;
+    
+    background-size: 100% 100%;
+    background-image: url('/assets/images/hiking/post/sign.png');
+    
+    &:hover:not(.hiking-sign-selected) {
+        background-image: url('/assets/images/hiking/post/sign-shadow.png');
+    }
+}
+
+.hiking-sign-selected {
+    background-image: url('/assets/images/hiking/post/sign-selected.png') !important;
+    
+    &:hover {
+        background-image: url('/assets/images/hiking/post/sign-selected.png') !important;
+    }
+
+    .hiking-post-sign-text {
+        color: white;
+    }
+}
+
+.hiking-post-sign-text {
+    /* corresponds to only the wood sign */
+    width: 10.85rem;
+    height: 3.2rem;
+    left: 0.29rem;
+    top: 0.5rem;
+    color: black;
+    cursor: pointer;
+
+    /* position relative to the rotated parent */
+    position: relative;
+
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+#hiking-sign-rotation-00 {
+    @extend %hiking-sign-rotation;
+    
+    transform: rotate(6deg);
+    margin-top: 4.5rem;
+    margin-left: 1.5rem;
+}
+
+#hiking-sign-rotation-01 {
+    @extend %hiking-sign-rotation;
+    
+    transform: rotate(-10deg);
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+}
+
+#hiking-sign-rotation-02 {
+    @extend %hiking-sign-rotation;
+
+    transform: rotate(-4deg);
+    margin-top: 0.5rem;
+    margin-left: 1.65rem;
+}
+
+#hiking-sign-rotation-03 {
+    @extend %hiking-sign-rotation;
+
+    transform: rotate(11deg);
+    margin-top: 1.1rem;
+    margin-left: 1.85rem;
+}
+
+#hiking-sign-rotation-04 {
+    @extend %hiking-sign-rotation;
+
+    transform: rotate(-1deg);
+    margin-top: 0.95rem;
+    margin-left: 1.25rem;
+}
+
+#hiking-sign-rotation-05 {
+    @extend %hiking-sign-rotation;
+
+    transform: rotate(-10deg);
+    margin-top: 0.95rem;
+    margin-left: 1.5rem;
+}
+
+#hiking-sign-rotation-06 {
+    @extend %hiking-sign-rotation;
+
+    transform: rotate(3deg);
+    margin-top: 0.95rem;
+    margin-left: 1.75rem;
+}

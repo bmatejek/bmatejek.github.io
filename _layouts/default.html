@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% if page.stylesheet %}
+    <link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
+  {% endif %}
+  {% if page.script %}
+    <script src="/assets/javascript/jquery-3.5.1.min.js"></script>
+    <script src="/assets/javascript/default.js"></script>
+    <script src="{{ page.script | relative_url }}"></script>
+  {% endif %}
+</head>
+<body>
+  <header>
+    {% include navigation.html %}
+  </header>
+  
+  <div id="content">
+    {{ content }}
+  </div>    
+</body>
+</html>

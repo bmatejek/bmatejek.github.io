@@ -1,0 +1,76 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.baseball-header {
+    border-collapse: collapse;
+    display: table-row;
+}
+
+#baseball-discussion {
+    @extend %dark-shadow;
+
+    width: 24.75rem;
+    background-color: $color-dark;
+    color: $color-light;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    text-align: justify;
+    margin-left: 1rem;
+}
+
+#baseball-discussion-frame {
+    width: 26.75rem;
+    display: table-cell;
+    padding: 0rem;
+    float: left;
+    height: 100%;
+}
+
+.baseball-photo-frame {
+    width: 36.75rem;
+    display: table-cell;
+    padding: 0rem;
+    float: right;
+}
+
+#baseball-photo {
+    @extend %dark-shadow;
+
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.baseball-ballpark-element {
+    @extend %dark-shadow;
+
+    margin-top: 0.75rem;
+    height: 8rem;
+    width: 12rem;
+    display: block;
+    float: left;
+    position: relative;
+    margin-left: 0.35rem;
+    margin-right: 0.35rem;
+}
+
+.baseball-ballpark {
+    width: 100%;
+    height: 100%;
+}
+
+.baseball-ballpark-visited {
+    @extend .baseball-ballpark;
+
+    opacity: 0.85;
+}
+
+.baseball-logo {
+    @extend .baseball-ballpark;
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    opacity: 0.5;
+}

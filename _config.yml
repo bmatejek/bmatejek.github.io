@@ -1,0 +1,9 @@
+title: Brian Matejek
+description:
+baseurl: ""
+url: ""
+
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,0 +1,8 @@
+<img class="header-image" src="/assets/images/header/banner-dark.png" />
+<nav class="header-menu">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" class="header-menu-option {% if page.url == item.link %}header-menu-option-active{% endif %}">
+      {{ item.name }}
+    </a>
+  {% endfor %}
+</nav>

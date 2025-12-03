@@ -1,0 +1,324 @@
+presentations:
+  - title: "High-Assurance Machine Learning for Cybersecurity"
+    venue: "Guest Lecture for CS410: Introduction to Software Engineering"
+    location: "University of Massachusetts Boston"
+    date: "April, 2023"
+    teaser: "matejek2023high_assurance"
+    slides: true 
+
+  - title: "Biologically-Aware Algorithms for Connectomics"
+    venue: "Thesis Defense"
+    location: "Harvard University"
+    date: "April, 2021"
+    teaser: "matejek2021biologically"
+    slides: true
+
+  - title: "Error Correction for Connectomics"
+    venue: "Invited Talk"
+    location: "BioImage Computing @ CVPR 2019"
+    date: "June, 2019"
+    teaser: "matejek2019error"
+    slides: true
+
+  - title: "Synapse-Aware Skeleton Generation for Neural Circuits"
+    venue: "Invited Poster"
+    location: "Max Planck Institute--Howard Hughes Medical Institute Connectomics Conference"
+    date: "April, 2019"
+    teaser: "matejek2019synapse"
+    poster: true
+
+  - title: "Segmentation of Electron Micrscopy Images in Connectomics"
+    venue: "Qualifying Exam"
+    location: "Harvard University"
+    date: "May, 2018"
+    teaser: "matejek2018segmentation"
+    slides: true
+
+  - title: "Learning Global Features for Neuron Reconstruction in EM Images"
+    venue: "Master's Defense"
+    location: "Princeton University"
+    date: "May, 2016"
+    teaser: "matejek2016learning"
+    slides: true
+
+publications:
+  - title: "SpikingVTG: A Spiking Detection Transformer for Video Temporal Grounding"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    venue: "Neural Information Processing Systems (NeurIPS)"
+    year: 2025
+    teaser: "bal2025spiking"
+    paper: true
+    appendix: true
+    # TODO code 
+    poster: true
+
+  - title: "Melanoma Detection with Uncertainty Quantification"
+    authors: "SangHyuk Kim, Edward Gaibor, Brian Matejek, Daniel Haehn"
+    venue: "IEEE International Symposium on Biomedical Imaging (ISBI)"
+    year: 2025
+    teaser: "kim2025melanoma"
+    paper: true
+    poster: true 
+    code: https://github.com/shkimmie-umb/melanoma_detection
+  
+  - title: "SAFE-NID: Self-Attention with Normalizing-Flow Encodings for Network Intrusion Detection"
+    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, Susmit Jha"
+    venue: "Transactions on Machine Learning Research (TMLR)"
+    year: 2025
+    teaser: "matejek2025safe"
+    paper: true
+    appendix: true
+    code: "https://github.com/SRI-CSL/trinity-packet"
+  
+  - title: "Resource-Constrained Heuristic for Max-SAT"
+    authors: "Brian Matejek, Daniel Elenius, Cale Gentry, David Stoker, Adam Cobb"
+    venue: "arXiv preprint arXiv:2410.09173}"
+    year: 2024
+    teaser: "matejek2024resource"
+    paper: true
+  
+  - title: "Non-Invasive Stress Monitoring from Video"
+    authors: "Akshata Tiwari, Brian Matejek, Daniel Haehn"
+    venue: "IEEE International Symposium on Biomedical Imaging (ISBI)"
+    year: 2024
+    teaser: "tiwari2024non_invasive"
+    paper: true
+    poster: true
+
+  - title: "Direct Amortized Likelihood Ratio Estimation"
+    authors: "Adam Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha"
+    venue: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI)"
+    year: 2024
+    teaser: "cobb2024direct"
+    paper: true
+    supplemental: true
+    code: "https://github.com/SRI-CSL/dnre"
+  
+  - title: "Algorithmic Tools for Understanding the Motif Structure of Networks"
+    authors: "Tianyi Chen, Brian Matejek, Michael Mitzenmacher, and Charalampos E. Tsourakakis"
+    venue: "Proceedings of European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD)"
+    year: 2022
+    teaser: "chen2022algorithmic"
+    paper: true
+    appendix: true 
+    code: "https://github.com/tsourakakis-lab/motifscope"
+  
+  - title: "Edge-Colored Directed Subgraph Enumeration on the Connectome"
+    authors: "Brian Matejek, Donglai Wei, Tianyi Chen, Charalampos E. Tsourakakis, Michael Mitzenmacher, and Hanspeter Pfister"
+    venue: "Nature Scientific Reports"
+    year: 2022
+    teaser: "matejek2022edge_colored"
+    paper: true
+    website: "https://rhoana.github.io/subgraph_enumeration/"
+    code: "https://github.com/Rhoana/subgraph_enumeration"
+
+  - title: "Scalable Biologically-Aware Skeleton Generation for Connectomic Volumes"
+    authors: "Brian Matejek&dagger;, Tim Franzmeyer&dagger;, Donglai Wei, Xueying Wang, Jinglin Zhao, Kálmán Palágyi, Jeff W. Lichtman, and Hanspeter Pfister"
+    venue: "IEEE: Transactions on Medical Imaging"
+    year: 2022
+    teaser: "matejek2022scalable"
+    paper: true
+    website: "https://rhoana.github.io/blockbased_synapseaware/"
+    code: "https://github.com/Rhoana/blockbased_synapseaware"
+  
+  - title: "AxonEM Dataset: 3D Axon Instance Segmentation of Brain Cortical Regions"
+    authors: "Donglai Wei, Kisuk Lee, Hanyu Li, Ran Lu, J. Alexander Bae, Zequan Liu, Lifu Zhang, Márcia dos Santos, Zudi Lin, Thomas Uram, Xueying Wang, Ignacio Arganda-Carreras, Brian Matejek, Narayanan Kasthuri, Jeff W. Lichtman, and Hanspeter Pfister"
+    venue: "Springer: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+    year: 2021
+    teaser: "wei2021axon"
+    paper: true
+    website: "https://connectomics-bazaar.github.io/proj/AxonEM/index.html"
+    code: "https://github.com/donglaiw/AxonEM-challenge/"
+
+  - title: "Two Stream Active Query Suggestion for Active Learning in Connectomics"
+    authors: "Zudi Lin, Donglai Wei, Won-Dong Jang, Siyan Zhou, Xupeng Chen, Xueying Wang, Richard Schalek, Daniel Berger, Brian Matejek, Lee Kamentsky, Adi Peleg, Daniel Haehn, Thouis R. Jones, Toufiq Parag, Jeff Lichtman, and Hanspeter Pfister"
+    venue: "Proceedings of European Conference on Computer Vision (ECCV)"
+    year: 2020
+    teaser: "lin2020two"
+    paper: true
+    supplemental: true
+  
+  - title: "Synapse-Aware Skeleton Generation For Neural Circuits"
+    authors: "Brian Matejek, Donglai Wei, Xueying Wang, Jinglin Zhao, Kálmán Palágyi, and Hanspeter Pfister"
+    venue: "Springer: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+    year: 2019
+    teaser: "matejek2019synapse"
+    paper: true
+    supplemental: true 
+    poster: true 
+    website: "https://rhoana.github.io/synapseaware"
+    code: "https://github.com/Rhoana/synapseaware"
+  
+  - title: "Biologically-Constrained Graphs for Global Connectomics Reconstruction"
+    authors: "Brian Matejek, Daniel Haehn, Haidong Zhu, Donglai Wei, Toufiq Parag, and Hanspeter Pfister"
+    venue: "Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2019
+    teaser: "matejek2019biologically"
+    paper: true
+    supplemental: true 
+    poster: true 
+    website: "https://rhoana.github.io/biologicalgraphs"
+    code: "https://github.com/Rhoana/biologicalgraphs"
+  
+  - title: "Efficient Correction for EM Connectomics with Skeletal Representation"
+    authors: "Konstantin Dmitriev, Toufiq Parag, Brian Matejek, Arie E Kaufman, and Hanspeter Pfister"
+    venue: "British Machine Vision Conference (BMVC)"
+    year: 2018
+    teaser: "dmitriev2018efficient"
+    paper: true
+    poster: true
+
+  - title: "Commercial Visual Analytics Systems–Advances in the Big Data Analytics Field"
+    authors: "Michael Behrisch, Dirk Streeb, Florian Stoffel, Daniel Seebacher, Brian Matejek, Stefan Hagen Weber, Sebastian Mittelstaedt, Hanspeter Pfister, and Daniel Keim"
+    venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)"
+    year: 2018
+    teaser: "behrisch2018commercial"
+    paper: true
+    appendix: true 
+    slides: true 
+    website: "https://commercialtools.dbvis.de/home"
+
+  - title: "Compresso: Efficient Compression of Segmentation Data for Connectomics"
+    authors: "Brian Matejek, Daniel Haehn, Fritz Lekschas, Michael Mitzenmacher, and Hanspeter Pfister"
+    venue: "Springer: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)"
+    year: 2017
+    teaser: "matejek2017compresso"
+    paper: true
+    poster: true 
+    website: "https://rhoana.github.io/compresso"
+    code: "https://github.com/VCG/compresso"
+
+  - title: "Scalable Interactive Visualization for Connectomics"
+    authors: "Daniel Haehn, John Hoffer, Brian Matejek, Adi Suissa-Peleg, Ali K Al-Awami, Lee Kamentsky, Felix Gonda, Eagon Meng, William Zhang, Richard Schalek, Alyssa Wilson, Toufiq Parag, Johanna Beyer, Verena Kaynig, Thouis R. Jones, James Tompkin, Markus Hadwiger, Jeff W. Lichtman, and Hanspeter Pfister"
+    venue: "MDPI Informatics"
+    year: 2017
+    teaser: "haehn2017scalable"
+    paper: true
+    video: "https://vimeo.com/280509756"
+    code: "https://github.com/Rhoana/butterfly"
+
+  - title: "Anisotropic EM Segmentation by 3D Affinity Learning and Agglomeration"
+    authors: "Toufiq Parag, Fabian Tschopp, William Grisaitis, Srinivas C. Turaga, Xuewen Zhang, Brian Matejek, Lee Kamentsky, Jeff W. Lichtman, and Hanspeter Pfister"
+    venue: "arXiv preprint arXiv:1707.08935"
+    year: 2017
+    teaser: "parag2017anisotropic"
+    paper: true
+  
+  - title: "Learning Hierarchical Semantic Segmentations of LIDAR Data"
+    authors: "David Dohan, Brian Matejek, and Thomas Funkhouser"
+    venue: "IEEE International Conference of 3D Vision"
+    year: 2015
+    teaser: "dohan2015learning"
+    paper: true
+    supplemental: true
+
+workshop_papers:
+  - title: "A Preliminary Study into the Conceptual Design of Aircraft using Simulation‑Based Inference"
+    authors: "Aurelien Ghiglino, Daniel Elenius, Anirban Roy, Ramneet Kaur, Manoj Acharya, Colin Samplawski, Brian Matejek, Susmit Jha, Juan Alonso, Adam D. Cobb"
+    venue: "Machine Learning and the Physical Sciences Workshop"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2025
+    teaser: "ghiglino2025preliminary"
+    paper: true 
+
+  - title: "Breaking Bad: Interpretability‑Based Safety Audits of State‑of‑the‑Art LLMs"
+    authors: "Krishiv Agarwal, Ramneet Kaur, Colin Samplawski, Manoj Acharya, Anirban Roy, Daniel Elenius, Brian Matejek, Adam D. Cobb, Susmit Jha"
+    venue: "Lock‑LLM Workshop: Prevent Unauthorized Knowledge Use from Large Language Models"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2025
+    teaser: "agarwal2025breaking"
+    paper: true
+
+  - title: "Enhancing Semantic Clustering for Uncertainty Quantification & Conformal Prediction by LLMs"
+    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, Susmit Jha"
+    venue: "Statistical Foundations of LLMs and Foundation Models"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2024
+    teaser: "kaur2024enhancing"
+    paper: true 
+
+  - title: "Addressing Uncertainty in LLMs to Enhance Reliability in Generative AI"
+    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, Susmit Jha"
+    venue: "Safe Generative AI"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2024
+    teaser: "kaur2024addressing"
+    paper: true 
+
+  - title: "SpikingVTG: Saliency Feedback Gating Enabled Spiking Video Temporal Grounding"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    venue: "Adaptive Foundation Models Workshop"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2024
+    teaser: "bal2024spiking_a"
+    paper: true 
+
+  - title: "SpikingVTG: Saliency Feedback Gating Enabled Spiking Video Temporal Grounding"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    venue: "Machine Learning and Compression Workshop"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2024
+    teaser: "bal2024spiking_b"
+    paper: true 
+  
+  - title: "Non‑Invasive Stress Monitoring from Video"
+    authors: "Akshata Tiwari, Brian Matejek, Daniel Haehn"
+    venue: "Women in Machine Learning Workshop"
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2024
+    teaser: "tiwari2024non_invasive"
+    paper: true 
+  
+  - title: "Safeguarding Network Intrusion Detection Models from Zero‑day Attacks and Concept Drift"
+    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, Susmit Jha"
+    venue: "Artificial Intelligence for Cyber Security (AICS) Workshop"
+    location: "AAAI Conference on Artificial Intelligence (AAAI)"
+    year: 2024
+    teaser: "matejek2024safeguarding"
+    paper: true 
+
+  - title: "Direct Amortized Likelihood Ratio Estimation"
+    authors: "Adam D. Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, and Susmit Jha"
+    venue: "Machine Learning and the Physical Sciences Workshop "
+    location: "Neural Information Processing Systems (NeurIPS)"
+    year: 2023
+    teaser: "cobb2023direct"
+    paper: true   
+
+theses:
+  - title: "Biologically-Aware Algorithms for Connectomics"
+    venue: "Ph.D. Dissertation"
+    location: "Harvard University"
+    date: "April, 2021"
+    teaser: "matejek2021biologically"
+    paper: true
+
+  - title: "Segmentation of Electron Microscopy Images for Connectomics"
+    venue: "Qualifying Exam"
+    location: "Harvard University"
+    date: "May, 2018"
+    teaser: "matejek2018segmentation"
+    paper: true 
+
+  - title: "Learning Global Features for Neuron Reconstruction in EM Images"
+    venue: "Master's Thesis"
+    location: "Princeton University"
+    date: "May, 2016"
+    teaser: "matejek2016learning"
+    paper: true 
+
+  - title: "Detecting Objects Using Google Street View Data"
+    venue: "Independent Research"
+    location: "Princeton University"
+    date: "December, 2013"
+    teaser: "matejek2013detecting"
+    paper: true 
+    poster: true 
+
+  - title: "A Computational Analysis of Arbitrage Opportunities in Sports Gambling"
+    venue: "Independent Research"
+    location: "Princeton University"
+    date: "May, 2013"
+    teaser: "matejek2013computational"
+    paper: true
+    poster: true
