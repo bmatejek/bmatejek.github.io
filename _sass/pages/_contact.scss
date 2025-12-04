@@ -1,5 +1,5 @@
-@use "../variables" as *;
-@use "../mixins" as *;
+@import "../variables" as *;
+@import "../mixins" as *;
 
 %contact-wrapper {
     height: 12.5rem;

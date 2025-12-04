@@ -1,4 +1,4 @@
-@use "variables" as *;
+@import "variables" as *;
 
 %light-shadow {
     box-shadow: 0.03125rem 0.125rem 0.03125rem 0.03125rem $color-darker;

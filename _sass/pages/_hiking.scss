@@ -1,5 +1,5 @@
-@use "../variables" as *;
-@use "../mixins" as *;
+@import "../variables" as *;
+@import "../mixins" as *;
 
 .hiking-post {
     width: 15rem;
