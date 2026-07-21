@@ -1,4 +1,11 @@
 presentations:
+  - title: "Safeguarding Network Intrusion Detection Models from Zero‑day Attacks and Concept Drift"
+    venue: "Artificial Intelligence for Cybersecurity (AICS)"
+    location: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI)"
+    date: "February, 2024"
+    teaser: "matejek2024safeguarding"
+    slides: true 
+
   - title: "High-Assurance Machine Learning for Cybersecurity"
     venue: "Guest Lecture for CS410: Introduction to Software Engineering"
     location: "University of Massachusetts Boston"
