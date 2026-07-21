@@ -1,13 +1,13 @@
-@import "variables";
+@use "variables" as vars;
 
 %light-shadow {
-    box-shadow: 0.03125rem 0.125rem 0.03125rem 0.03125rem $color-darker;
-    -webkit-box-shadow: 0.03125rem 0.125rem 0.03125rem 0.03125rem $color-darker;
+    box-shadow: 0.03125rem 0.125rem 0.03125rem 0.03125rem vars.$color-darker;
+    -webkit-box-shadow: 0.03125rem 0.125rem 0.03125rem 0.03125rem vars.$color-darker;
 }
 
 %dark-shadow {
-    box-shadow: 0.25rem 0.25rem 0.5rem 0.125rem $color-darker;
-  	-webkit-box-shadow: 0.25rem 0.25rem 0.5rem 0.125rem $color-darker;
+    box-shadow: 0.25rem 0.25rem 0.5rem 0.125rem vars.$color-darker;
+  	-webkit-box-shadow: 0.25rem 0.25rem 0.5rem 0.125rem vars.$color-darker;
 }
 
 %black-shadow {

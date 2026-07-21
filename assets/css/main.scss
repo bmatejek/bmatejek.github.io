@@ -1,7 +1,5 @@
 ---
 ---
 
-@import "variables";
-@import "base";
-@import "mixins";
-@import "components/navigation";
+@use "base";
+@use "components/navigation";

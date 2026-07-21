@@ -1,5 +1,5 @@
-@import "../variables";
-@import "../mixins";
+@use "../variables" as vars;
+@use "../mixins" as mix;
 
 %contact-wrapper {
     height: 12.5rem;
@@ -23,8 +23,8 @@
     float: left;
     height: 100%;
     width: 18rem;
-    background-color: $color-dark;
-    color: $color-light;
+    background-color: vars.$color-dark;
+    color: vars.$color-light;
     border-radius: 2rem;
     cursor: pointer;
     margin-left: 1.25rem;
@@ -33,7 +33,7 @@
     &:hover {
         @extend %black-shadow;
 
-        background-color: $color-darker;
+        background-color: vars.$color-darker;
     }
 }
 

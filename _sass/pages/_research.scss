@@ -1,9 +1,9 @@
-@import "../variables";
-@import "../mixins";
+@use "../variables" as vars;
+@use "../mixins" as mix;
 
 %research-div-style {
-    color: $color-light;
-    background-color: $color-dark;
+    color: vars.$color-light;
+    background-color: vars.$color-dark;
     border-radius: 0.25rem;
     margin-top: 0.5rem;
 }

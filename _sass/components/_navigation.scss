@@ -1,5 +1,5 @@
-@use "../variables";
-@use "../mixins";
+@use "../variables" as vars;
+@use "../mixins" as mix;
 
 .header-image {
     position: absolute;
@@ -13,7 +13,7 @@
 .header-menu {
     @extend %dark-shadow;
 
-    background-color: $color-dark;
+    background-color: vars.$color-dark;
     position: absolute;
     left: 0rem;
     right: 0rem;
@@ -47,15 +47,15 @@
     text-align: center;
     text-decoration: none;
 
-    color: $color-light;
-    background-color: $color-dark;
+    color: vars.$color-light;
+    background-color: vars.$color-dark;
     cursor: pointer;
     
     &:hover {
         @extend %light-shadow;
 
-        color: $color-dark;
-        background-color: $color-light;
+        color: vars.$color-dark;
+        background-color: vars.$color-light;
     }
 
     a {
@@ -66,5 +66,5 @@
 }
 
 .header-menu-option-active {
-    background-color: $color-darker;
+    background-color: vars.$color-darker;
 }

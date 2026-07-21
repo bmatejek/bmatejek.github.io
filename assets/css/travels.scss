@@ -1,7 +1,5 @@
 ---
 ---
 
-@import "variables";
-@import "base";
-@import "mixins";
-@import "pages/travels";
+@use "base";
+@use "pages/travels";

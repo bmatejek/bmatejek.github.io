@@ -1,5 +1,5 @@
-@import "../variables";
-@import "../mixins";
+@use "../variables" as vars;
+@use "../mixins" as mix;
 
 %postcard {
     position: absolute;
@@ -9,7 +9,7 @@
     background-repeat: no-repeat;
 
     &:hover {
-        background-color: $color-dark;
+        background-color: vars.$color-dark;
         cursor: pointer;
         @extend %dark-shadow;
     }
@@ -113,14 +113,14 @@
     height: 36rem;
 
     // add large shadow and increase on hover 
-    box-shadow: 0 0 4rem $color-darker;
-    -moz-box-shadow: 0 0 4rem $color-darker;
-    -webkit-box-shadow: 0 0 4rem $color-darker;
+    box-shadow: 0 0 4rem vars.$color-darker;
+    -moz-box-shadow: 0 0 4rem vars.$color-darker;
+    -webkit-box-shadow: 0 0 4rem vars.$color-darker;
     
     &:hover {
-        box-shadow: 0 0 6rem $color-darker;
-        -moz-box-shadow: 0 0 6rem $color-darker;
-        -webkit-box-shadow: 0 0 6rem $color-darker;
+        box-shadow: 0 0 6rem vars.$color-darker;
+        -moz-box-shadow: 0 0 6rem vars.$color-darker;
+        -webkit-box-shadow: 0 0 6rem vars.$color-darker;
     }
 
     top: 2rem;

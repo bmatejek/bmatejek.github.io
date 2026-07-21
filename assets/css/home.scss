@@ -1,7 +1,5 @@
 ---
 ---
 
-@import "variables";
-@import "base";
-@import "mixins";
-@import "pages/home";
+@use "base";
+@use "pages/home";

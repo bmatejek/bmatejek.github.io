@@ -1,7 +1,5 @@
 ---
 ---
 
-@import "variables";
-@import "base";
-@import "mixins";
-@import "pages/baseball";
+@use "base";
+@use "pages/baseball";

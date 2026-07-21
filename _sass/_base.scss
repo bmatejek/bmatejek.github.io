@@ -1,5 +1,5 @@
 // imports 
-@import "variables";
+@use "variables" as vars;
 
 /*
  * Remove any original margin or padding on HTML elements 
@@ -14,8 +14,8 @@
  * Set the default colors and fonts for all webpages 
  */ 
 body {
-    color: $color-dark;
-    background: $background-color;
+    color: vars.$color-dark;
+    background: vars.$background-color;
     font-family: 'Barlow Condensed';
 }
 
