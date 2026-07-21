@@ -42,8 +42,45 @@ presentations:
     slides: true
 
 publications:
+  - title: "\"Do Diffusion Models Dream of Electric Planes?\" Discrete and Continuous Simulation-Based Inference for Aircraft Design"
+    authors: "Aurelien Ghiglino, Daniel Elenius, Anirban Roy, Ramneet Kaur, Manoj Acharya, Colin Samplawski, Brian Matejek, Susmit Jha, Juan Alonso, and Adam D. Cobb"
+    venue: "International Conference on Machine Learning (ICML)"
+    year: 2026
+    teaser: "ghiglino2026do"
+    paper: true
+    code: "https://github.com/SRI-CSL/mixed-masked-diffusion"
+
+  - title: "The Unreasonable Benchmark"
+    authors: "Fernando Perez‑Cruz, Briland Hitaj, Giovanna Maria Dimitri, Oishi Deb, Amine M’Charrak, Shikhar Srivastava, Christopher Kanan, Anup Kumar Gupta, Zefang Liu, Zihan Zhu, Tarun Kumar, Álvaro Galisteo Bermúdez, Vasilios Mavroudis, Yuyang Xue, Brian Matejek, Swati Rajwal, Avinash Kumar Pandey, Ayyüce Begüm Bektaş, Anil B Murthy, Feng Chen, Hamed Babaei Giglou, Jennifer D’Souza, Huascar Sanchez, Michael Kraus, et al."
+    venue: "Data-Centric Machine Learning Research (DMLR)"
+    year: 2026
+    teaser: "perezcruz2026unreasonable"
+    paper: true
+    dataset: "https://huggingface.co/datasets/unreasonablebenchmark/unreasonable-benchmark"
+
+  - title: "Relevance Structures are a Necessary Prerequisite for Artificial Metacognition"
+    authors: "Alexander M. Berenbeim, Ramneet Kaur, Adam D. Cobb, Brian Matejek, Anirban Roy, Susmit Jha, and Nathaniel D. Bastian"
+    venue: "IEEE Intelligent Systems"
+    year: 2026
+    teaser: "berenbeim2026relevance"
+    paper: true
+
+  - title: "Overcoming Unforeseeable AI Errors: A Proposal"
+    authors: "Mitchell Chervu Johnston and Brian Matejek"
+    venue: "ssrn preprint ssrn:6344559"
+    year: 2026
+    teaser: "johnston2026overcoming"
+    paper: true
+
+  - title: "Spatio‑Temporal Pruning for Compressed Spiking Large Language Models"
+    authors: "Yi Jiang, Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb, and Abhronil Sengupta"
+    venue: "arXiv preprint arXiv:2508.20122"
+    year: 2025
+    teaser: "jiang2025spiking"
+    paper: true
+
   - title: "SpikingVTG: A Spiking Detection Transformer for Video Temporal Grounding"
-    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, and Adam D. Cobb"
     venue: "Neural Information Processing Systems (NeurIPS)"
     year: 2025
     teaser: "bal2025spiking"
@@ -53,7 +90,7 @@ publications:
     poster: true
 
   - title: "Melanoma Detection with Uncertainty Quantification"
-    authors: "SangHyuk Kim, Edward Gaibor, Brian Matejek, Daniel Haehn"
+    authors: "SangHyuk Kim, Edward Gaibor, Brian Matejek, and Daniel Haehn"
     venue: "IEEE International Symposium on Biomedical Imaging (ISBI)"
     year: 2025
     teaser: "kim2025melanoma"
@@ -62,7 +99,7 @@ publications:
     code: https://github.com/shkimmie-umb/melanoma_detection
   
   - title: "SAFE-NID: Self-Attention with Normalizing-Flow Encodings for Network Intrusion Detection"
-    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, Susmit Jha"
+    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, and Susmit Jha"
     venue: "Transactions on Machine Learning Research (TMLR)"
     year: 2025
     teaser: "matejek2025safe"
@@ -71,14 +108,14 @@ publications:
     code: "https://github.com/SRI-CSL/trinity-packet"
   
   - title: "Resource-Constrained Heuristic for Max-SAT"
-    authors: "Brian Matejek, Daniel Elenius, Cale Gentry, David Stoker, Adam Cobb"
+    authors: "Brian Matejek, Daniel Elenius, Cale Gentry, David Stoker, and Adam Cobb"
     venue: "arXiv preprint arXiv:2410.09173}"
     year: 2024
     teaser: "matejek2024resource"
     paper: true
   
   - title: "Non-Invasive Stress Monitoring from Video"
-    authors: "Akshata Tiwari, Brian Matejek, Daniel Haehn"
+    authors: "Akshata Tiwari, Brian Matejek, and Daniel Haehn"
     venue: "IEEE International Symposium on Biomedical Imaging (ISBI)"
     year: 2024
     teaser: "tiwari2024non_invasive"
@@ -86,7 +123,7 @@ publications:
     poster: true
 
   - title: "Direct Amortized Likelihood Ratio Estimation"
-    authors: "Adam Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, Susmit Jha"
+    authors: "Adam Cobb, Brian Matejek, Daniel Elenius, Anirban Roy, and Susmit Jha"
     venue: "Thirty-Eighth AAAI Conference on Artificial Intelligence (AAAI)"
     year: 2024
     teaser: "cobb2024direct"
@@ -213,8 +250,26 @@ publications:
     supplemental: true
 
 workshop_papers:
+  - title: "Bridging the Gap Between Tort Law and Unforeseeable AI Errors"
+    authors: "Mitchell Chervu Johnston and Brian Matejek"
+    venue: "Trustworthy AI For Good (AI4Good)"
+    location: "International Conference on Machine Learning (ICML)"
+    year: 2026
+    teaser: "johnston2026bridging_b"
+    paper: true
+    poster: true
+
+  - title: "Bridging the Gap Between Tort Law and Unforeseeable AI Errors"
+    authors: "Mitchell Chervu Johnston and Brian Matejek"
+    venue: "Second Workshop on Technical AI Governance (TAIGR)"
+    location: "International Conference on Machine Learning (ICML)"
+    year: 2026
+    teaser: "johnston2026bridging_a"
+    paper: true
+    poster: true
+
   - title: "A Preliminary Study into the Conceptual Design of Aircraft using Simulation‑Based Inference"
-    authors: "Aurelien Ghiglino, Daniel Elenius, Anirban Roy, Ramneet Kaur, Manoj Acharya, Colin Samplawski, Brian Matejek, Susmit Jha, Juan Alonso, Adam D. Cobb"
+    authors: "Aurelien Ghiglino, Daniel Elenius, Anirban Roy, Ramneet Kaur, Manoj Acharya, Colin Samplawski, Brian Matejek, Susmit Jha, Juan Alonso, and Adam D. Cobb"
     venue: "Machine Learning and the Physical Sciences Workshop"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2025
@@ -222,7 +277,7 @@ workshop_papers:
     paper: true 
 
   - title: "Breaking Bad: Interpretability‑Based Safety Audits of State‑of‑the‑Art LLMs"
-    authors: "Krishiv Agarwal, Ramneet Kaur, Colin Samplawski, Manoj Acharya, Anirban Roy, Daniel Elenius, Brian Matejek, Adam D. Cobb, Susmit Jha"
+    authors: "Krishiv Agarwal, Ramneet Kaur, Colin Samplawski, Manoj Acharya, Anirban Roy, Daniel Elenius, Brian Matejek, Adam D. Cobb, and Susmit Jha"
     venue: "Lock‑LLM Workshop: Prevent Unauthorized Knowledge Use from Large Language Models"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2025
@@ -230,7 +285,7 @@ workshop_papers:
     paper: true
 
   - title: "Enhancing Semantic Clustering for Uncertainty Quantification & Conformal Prediction by LLMs"
-    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, Susmit Jha"
+    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, and Susmit Jha"
     venue: "Statistical Foundations of LLMs and Foundation Models"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2024
@@ -238,7 +293,7 @@ workshop_papers:
     paper: true 
 
   - title: "Addressing Uncertainty in LLMs to Enhance Reliability in Generative AI"
-    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, Susmit Jha"
+    authors: "Ramneet Kaur, Colin Samplawski, Adam D. Cobb, Anirban Roy, Brian Matejek, Manoj Acharya, Daniel Elenius, Alexander Michael Berenbeim, John A. Pavlik, Nathaniel D. Bastian, and Susmit Jha"
     venue: "Safe Generative AI"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2024
@@ -246,7 +301,7 @@ workshop_papers:
     paper: true 
 
   - title: "SpikingVTG: Saliency Feedback Gating Enabled Spiking Video Temporal Grounding"
-    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, and Adam D. Cobb"
     venue: "Adaptive Foundation Models Workshop"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2024
@@ -254,7 +309,7 @@ workshop_papers:
     paper: true 
 
   - title: "SpikingVTG: Saliency Feedback Gating Enabled Spiking Video Temporal Grounding"
-    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, Adam D. Cobb"
+    authors: "Malyaban Bal, Brian Matejek, Susmit Jha, and Adam D. Cobb"
     venue: "Machine Learning and Compression Workshop"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2024
@@ -262,7 +317,7 @@ workshop_papers:
     paper: true 
   
   - title: "Non‑Invasive Stress Monitoring from Video"
-    authors: "Akshata Tiwari, Brian Matejek, Daniel Haehn"
+    authors: "Akshata Tiwari, Brian Matejek, and Daniel Haehn"
     venue: "Women in Machine Learning Workshop"
     location: "Neural Information Processing Systems (NeurIPS)"
     year: 2024
@@ -270,7 +325,7 @@ workshop_papers:
     paper: true 
   
   - title: "Safeguarding Network Intrusion Detection Models from Zero‑day Attacks and Concept Drift"
-    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, Susmit Jha"
+    authors: "Brian Matejek, Ashish Gehani, Nathaniel D. Bastian, Daniel J. Clouse, Bradford J. Kline, and Susmit Jha"
     venue: "Artificial Intelligence for Cyber Security (AICS) Workshop"
     location: "AAAI Conference on Artificial Intelligence (AAAI)"
     year: 2024

@@ -63,6 +63,9 @@ stylesheet: /assets/css/research.css
             {% if item.code %}
                 <a href="{{ item.code }}" target="_blank">Code</a>
             {% endif %}
+            {% if item.dataset %}
+                <a href="{{ item.dataset }}" target="_blank">Dataset</a>
+            {% endif %}
         </div>
     </div>
 </div>
@@ -83,6 +86,9 @@ stylesheet: /assets/css/research.css
         <div class="research-links">
             {% if item.paper %} 
                 <a href="/assets/pdfs/research/workshop_papers/{{ item.teaser }}.pdf" target="_blank">Paper</a>
+            {% endif %}
+            {% if item.poster %}
+            <a href="/assets/pdfs/research/workshop_papers/{{ item.teaser }}_poster.pdf" target="_blank">Poster</a>
             {% endif %}
             {% if item.code %}
                 <a href="{{ item.code }}" target="_blank">Code</a>
