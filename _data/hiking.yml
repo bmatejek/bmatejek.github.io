@@ -1,6 +1,6 @@
 - name: 'Cat Mountain'
 - name: 'Crater Lake'
-- name: 'Grand Canyon'
+# - name: 'Grand Canyon'
 - name: 'Grand Tetons'
 - name: 'Lonesome Lake'
 - name: 'Mount Mansfield'
