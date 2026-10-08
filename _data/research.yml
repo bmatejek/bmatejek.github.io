@@ -260,7 +260,7 @@ workshop_papers:
   - title: "Cross-Modal Grounding for Calibrated Confidence in Vision Language Models"
     authors: "Trilok Padhi, Ramneet Kaur, Adam D. Cobb, Manoj Acharya, Colin Samplawski, Brian Matejek, Alexander M. Berenbeim, Nathaniel D. Bastian, Susmit Jha, Ugur Kursuncu, Anirban Roy"
     venue: "Grounding Language Models: Learning Faithfully and Efficiently"
-    location: "Conference on Empirical Methods in Natural Language Processing"
+    location: "Conference on Empirical Methods in Natural Language Processing (EMNLP)"
     year: 2026
     teaser: "padhi2026grounding"
     paper: true
